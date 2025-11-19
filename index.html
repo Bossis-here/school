@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twinkle Star School — Jodhpur</title>
+  <meta name="description" content="Official website of Twinkle Star School, Jodhpur. A primary school from Class 1 to 8 focused on creativity, discipline, and excellence.">
+  <meta name="keywords" content="Twinkle Star School, Jodhpur School, Primary Education, Class 1 to 8, Admission Form">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <a href="#" id="contactToggle">📞 +91 63776 63613</a>
+    <div id="contactOptions" class="contact-options">
+      <a href="tel:+916377663613">Call</a>
+      <a href="https://wa.me/916377663613?text=Hello%20Twinkle%20Star%20School%2C%20I%20would%20like%20to%20inquire%20about%20admissions." target="_blank">Chat on WhatsApp</a>
+    </div>
+  </div>
+
+  <header class="header">
+  <div class="header-container">
+    <a href="index.html">
+      <img src="logo.png" alt="Twinkle Star School Logo" class="logo">
+    </a>
+   <nav class="nav desktop-nav">
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="role-in-society.html">Role in Society</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="role-in-society.html">Role in Society</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-slider">
+        <img src="images/hero1.jpg" alt="Hero Slide 1" class="hero-slide active">
+        <img src="images/hero2.jpg" alt="Hero Slide 2" class="hero-slide">
+        <img src="images/hero3.jpg" alt="Hero Slide 3" class="hero-slide">
+        <button class="slide-toggle" id="slideToggle">Next</button>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Twinkle Star School, located in Jodhpur, is a nurturing space for children from Class 1 to 8. We focus on academic strength, moral values, and a joyful learning environment that brings out the best in every child.</p>
+    </section>
+
+    <section id="beliefs">
+      <h2>We Believe In</h2>
+      <ul>
+        <li>Creativity</li>
+        <li>Discipline</li>
+        <li>Equal Opportunity</li>
+        <li>Character Building</li>
+        <li>Joyful Learning</li>
+      </ul>
+    </section>
+
+    <section id="life">
+      <h2>Life at Twinkle Star School</h2>
+      <div class="image-grid">
+        <img src="images/life1.jpg" alt="Life 1">
+        <img src="images/life1.jpg" alt="Life 2">
+        <img src="images/life3.jpg" alt="Life 3">
+        <img src="images/life3.jpg" alt="Life 4">
+      </div>
+    </section>
+
+    <section id="message">
+      <h2>Message from the Principal</h2>
+      <div class="message-block">
+        <img src="chairman.png" alt="Chairman Photo">
+        <p>"At Twinkle Star School, we believe every child is unique and deserves the best opportunity to learn and grow. Our mission is to inspire, guide, and support students so they shine not just academically but as kind, thoughtful citizens."</p>
+      </div>
+    </section>
+
+    <section id="map">
+      <h2>Find Us</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:4px solid #000000;" allowfullscreen="" loading="lazy" title="School Map"></iframe>
+    </section>
+
+    <section id="contact">
+  <h2>Admission & Contact</h2>
+  <form id="admissionForm" action="https://formspree.io/f/xblzaqjr" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="class" placeholder="Class for Admission" required>
+    <textarea name="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p id="formMessage" style="display: none; color: #ffd700; font-weight: bold; text-align: center;"></p>
+</section>
+  </main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="School Logo">
+    <p>&copy; 2025 Twinkle Star School · All rights reserved</p>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="role-in-society.html">Role in Society</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

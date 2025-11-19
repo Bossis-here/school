@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Twinkle Star School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <a href="#" id="contactToggle">📞 +91 63776 63613</a>
+    <div id="contactOptions" class="contact-options">
+      <a href="tel:+916377663613">Call</a>
+      <a href="https://wa.me/916377663613?text=Hello%20Twinkle%20Star%20School%2C%20I%20would%20like%20to%20inquire%20about%20admissions." target="_blank">Chat on WhatsApp</a>
+    </div>
+  </div>
+
+  <header class="header">
+  <div class="header-container">
+    <a href="index.html">
+      <img src="logo.png" alt="Twinkle Star School Logo" class="logo">
+    </a>
+      <nav class="nav desktop-nav">
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="role-in-society.html">Role in Society</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="role-in-society.html">Role in Society</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+  <h2>Get in Touch</h2>
+  <p>Please fill the form below for inquiries or admission-related questions. Only one submission allowed per user every 24 hours.</p>
+  <form id="inquiryForm" action="https://formspree.io/f/xblzaqjr" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMessage" style="display: none; color: #ffd700; font-weight: bold; text-align: center;"></p>
+</section>
+  </main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="School Logo">
+    <p>&copy; 2025 Twinkle Star School · All rights reserved</p>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="opportunities.html">Opportunities</a>
+        <a href="purpose.html">Purpose</a>
+        <a href="role-in-society.html">Role in Society</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
